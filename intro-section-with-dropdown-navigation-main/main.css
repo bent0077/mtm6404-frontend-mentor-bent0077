@@ -104,3 +104,53 @@ nav {
 .active-menu {
     display: flex !important;
 }
+
+
+
+
+
+/*buttons*/
+.login,
+.register {
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.login {
+    border: none;
+}
+
+.login:hover {
+    color: hsl(0, 0%, 8%);
+    font-weight: 700;
+}
+
+.register {
+    border: 1px solid hsl(0, 0%, 8%);
+}
+
+.register:hover {
+    color: hsl(0, 0%, 8%);
+    font-weight: 700;
+}
+
+.learn-more {
+    background-color: hsl(0, 0%, 8%);
+    width: fit-content;
+    padding: 1rem 2rem;
+    color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: hsl(0, 0%, 98%);
+    border: 1px solid hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
+    font-weight: 700;
+}
+
+/*content*/
