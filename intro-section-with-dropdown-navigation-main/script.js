@@ -13,7 +13,15 @@ if(menuBtn.classList. contains("active-btn")){
 } else{
     icon.src = "./images/icon-menu.svg";
 }
+});
 
 
-}
-)
+navLinks.forEach(link) =>{
+    const subMenu = link.querySelector("sub-menu");
+    link.addEventListener("click", () => {
+        link.classList.toggle("active");
+        subMenu.classList.toggle("active");
+        subMenu.classList.toggle("active-menu")
+    }
+    
+    )};
